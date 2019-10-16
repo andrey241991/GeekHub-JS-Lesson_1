@@ -1,18 +1,4 @@
-h3 {
-    margin: 0;
-}
 
-h2 {
-    margin: 0;
-}
-
-h1 {
-    margin: 0;
-}
-
-p {
-    margin: 0;
-}
 
 .container {
     max-width: 1440px;
@@ -79,7 +65,7 @@ p {
 
         div {
             flex: 61%;
-
+            flex-shrink: 3;
             div {
                 max-width: 570px;
                 margin: 0 auto;
@@ -104,11 +90,11 @@ p {
                 }
 
             }
-
-            div {
-                flex: 39%;
-            }
-
+        }
+        .new-design-background {
+            background-position: center;
+            flex: 39%;
+            background-image: url("./assets/bg_second-section.png");
         }
     }
 
@@ -149,7 +135,7 @@ p {
                     flex-direction: column;
 
                     img {
-                        width: 70px;
+                        width: auto;
                         height: 70px;
                         text-align: center;
                         padding-bottom: 6px;
@@ -378,27 +364,41 @@ p {
 
     footer {
         .footer-bg {
-            right: 0px;
+            right: 0;
             position: absolute;
-            top: 0px;
-            right: 0px;
+            top: 0;
+            right: 0;
             width: auto;
             height: 90%;
+            z-index: -1;
         }
 
         .footer-background {
             position: relative;
 
             .footer-container {
-                padding: 90px 0 100px 150px;
+                padding: 90px 0 100px 0;
                 max-width: 953px;
                 display: flex;
-                justify-content: space-evenly;
+                justify-content: space-around;
                 text-align: center;
+                margin: 0 auto;
 
                 .footer-container-item {
                     display: flex;
                     flex-direction: column;
+
+                    ul{
+                        margin: 0;
+                        padding: 0;
+                        list-style-type: none;
+                    }
+
+                    li{
+                        font-size: 14px;
+                        color: #8a8a8a;
+                        padding-bottom: 6px;
+                    }
 
                     .footer-container-item__sub-title {
                         font-size: 14px;
@@ -436,17 +436,20 @@ p {
 
                     .item-block-top {
                         display: flex;
-
+                        padding-bottom: 14px;
                         input {
                             max-width: 212px;
                             background-color: #f6f6f6;
-                            border: 0.5px solid #949494;
-                            border-radius: 5px;
+                            border: 1px solid #949494;
+                            border-bottom-left-radius: 5px;
+                            border-top-left-radius: 5px;
                             padding-left: 25px;
                         }
 
                         img {
                             max-width: 53px;
+                            border-bottom-right-radius: 5px;
+                            border-top-right-radius: 5px;
                         }
                     }
 

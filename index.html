@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1"/>
   <title>GeekHub-lesson-1</title>
+  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
-  <script type="module" src="index.js"></script>
+  <script type="module" src="index.js" defer></script>
   <link href="https://fonts.googleapis.com/css?family=Exo+2:100,100i,400,400i,500,500i,600,700,800&display=swap"
     rel="stylesheet">
 </head>
@@ -34,9 +35,7 @@
             elit libero, a pharetra augue.</p>
         </div>
       </div>
-      <div>
-        <img src="./assets/bg_second-section.png" alt='New Design Background' />
-      </div>
+      <div class="new-design-background"></div>
     </section>
 
     <section class="new-features">
@@ -138,10 +137,10 @@
         <h3>30 days free trial for all.</h3>
       </div>
       <div class="try-now-container-bottom-block">
-        <input placeholder="FULL NAME"></input>
-        <input placeholder="YOUR EMAIL"></input>
-        <input placeholder="PASSWORD"></input>
-        <input class="bottom-block-input bottom-block-input--red" placeholder="TRY NOW"></input>
+        <input placeholder="FULL NAME"/>
+        <input placeholder="YOUR EMAIL"/>
+        <input placeholder="PASSWORD"/>
+        <input class="bottom-block-input bottom-block-input--red" placeholder="TRY NOW"/>
       </div>
       <h3 class="browser-inner-container__agreement">By Signing up you agree to our <a class="link" href="/">terms &
           Services.</a></h3>
@@ -163,22 +162,26 @@
 
         <div class="footer-container-item">
           <h2 class="footer-container-item__title">Support</h2>
-          <h3 class="footer-container-item__sub-title">Help Center</h3>
-          <h3 class="footer-container-item__sub-title">Get Started</h3>
-          <h3 class="footer-container-item__sub-title">Contact US</h3>
+          <ul>
+              <li>Help Center</li>
+              <li>Get Started</li>
+              <li>Contact US</li>
+          </ul>
         </div>
 
         <div class="footer-container-item">
           <h2 class="footer-container-item__title">About Us</h2>
-          <h3 class="footer-container-item__sub-title">About Us</h3>
-          <h3 class="footer-container-item__sub-title"> Terms of Use</h3>
-          <h3 class="footer-container-item__sub-title">Privacy Policy</h3>
+          <ul>
+            <li>About Us</li>
+            <li>Terms of Use</li>
+            <li>Privacy Policy</li>
+        </ul>
         </div>
 
         <div class="footer-container-item">
           <h2 class="footer-container-item__title">Get Newsletter</h2>
           <div class="item-block-top">
-            <input placeholder="EMAIL"></input>
+            <input placeholder="EMAIL"/>
             <img src="assets/footer_img.png" alt='footer sent btn' />
           </div>
           <div class="item-block-bottom">
@@ -195,77 +198,4 @@
 
   </div>
 </body>
-
 </html>
-
-
-      <!--
-
-    <section class="try-now">
-      <div class="try-now-container">
-        <h3 class="try-now-container__title">NEW FEATURES</h3>
-        <h3 class="try-now-container__sub-title">Over 1000 designers are using ...</h3>
-        <div class="try-now-container-trial-top-block">
-          <img src="./assets/arrow.png" />
-          <h3 class="top-block-text">30 days free trial for all.</h3>
-        </div>
-        <div class="try-now-container-trial-bottom-block">
-          <input class="bottom-block-input" placeholder="FULL NAME"></input>
-          <input class="bottom-block-input" placeholder="YOUR EMAIL"></input>
-          <input class="bottom-block-input" placeholder="PASSWORD"></input>
-          <input class="bottom-block-input bottom-block-input--red" placeholder="TRY NOW"></input>
-        </div>
-        <h3 class="browser-inner-container__agreement">By Signing up you agree to our <a class="link" href="/">terms &
-            Services.</a></h3>
-      </div>
-    </section>
-    <section class="footer">
-      <div class="footer-background">
-        <div class="footer-container">
-          <div class="footer-container-item">
-            <div class="item-block">
-              <h2 class="footer-container-item__title--no-padding">Start</h2>
-              <img class="item-block__img" src="./assets/Polygon 1.png" />
-            </div>
-            <p class="item-block-text">Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam.
-              USA & CAN: 1-888-123-4567
-              Address: 34 Brokel Rd. NY</p>
-          </div>
-
-          <div class="footer-container-item">
-            <h2 class="footer-container-item__title">Support</h2>
-            <h3 class="footer-container-item__sub-title">Help Center</h3>
-            <h3 class="footer-container-item__sub-title">Get Started</h3>
-            <h3 class="footer-container-item__sub-title">Contact US</h3>
-          </div>
-
-          <div class="footer-container-item">
-            <h2 class="footer-container-item__title">About Us</h2>
-            <h3 class="footer-container-item__sub-title">About Us</h3>
-            <h3 class="footer-container-item__sub-title"> Terms of Use</h3>
-            <h3 class="footer-container-item__sub-title">Privacy Policy</h3>
-          </div>
-
-          <div class="footer-container-item">
-            <h2 class="footer-container-item__title">Get Newsletter</h2>
-            <div class="item-block-top">
-              <input class="item-block-top-input" placeholder="EMAIL"></input>
-              <img class="item-block-top-btn" src="assets/footer_img.png" />
-            </div>
-            <div class="item-block-bottom">
-              <img src="assets/dribbble_S.png" />
-              <img src="assets/facebook_S.png" />
-              <img src="assets/googleplus_S.png" />
-              <img src="assets/twitter_S.png" />
-            </div>
-          </div>
-          <img class="footer-bg" src="assets/footer-bg.png" />
-        </div>
-      </div>
-    </section> -->
-    <!-- </div>
-</body>
-</html> -->
-
-
-
