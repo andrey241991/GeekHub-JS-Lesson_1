@@ -128,7 +128,7 @@
 
 .container .new-features .new-features-container .new-features-container-content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   text-align: center;
 }
 
@@ -153,6 +153,7 @@
 .container .new-features .new-features-container .new-features-container-content .content-item h3 {
   color: #99999a;
   font-size: 16px;
+  max-width: 320px;
 }
 
 .container .new-features .new-features-container .new-features-container__img {
@@ -208,7 +209,7 @@
 
 .container .description .description-container .inner-container-top {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   text-align: center;
 }
 
@@ -235,13 +236,14 @@
 }
 
 .container .description .description-container .inner-container-top .top-item p {
+  max-width: 320px;
   font-size: 16px;
   color: #c8c9ca;
 }
 
 .container .description .description-container .inner-container-bottom {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   text-align: center;
 }
 
@@ -323,7 +325,7 @@
 .container .try-now .try-now-container .try-now-container-bottom-block {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding-bottom: 55px;
 }
 
@@ -453,7 +455,7 @@
 .container footer .footer-background .footer-container .footer-container-item .item-block-bottom {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 155px;
   margin: 0 auto;
 }

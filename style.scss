@@ -126,7 +126,7 @@
 
             .new-features-container-content {
                 display: flex;
-                justify-content: space-evenly;
+                justify-content: space-around;
                 text-align: center;
 
                 .content-item {
@@ -149,6 +149,7 @@
                     h3 {
                         color:#99999a;
                         font-size: 16px;
+                        max-width: 320px;
                     }
                 }
             }
@@ -211,7 +212,7 @@
 
             .inner-container-top {
                 display: flex;
-                justify-content: space-evenly;
+                justify-content: space-around;
                 text-align: center;
 
                 .top-item {
@@ -236,6 +237,7 @@
                     }
 
                     p {
+                        max-width: 320px;
                         font-size: 16px;
                         color: #c8c9ca;
                     }
@@ -244,7 +246,7 @@
 
             .inner-container-bottom {
                 display: flex;
-                justify-content: space-evenly;
+                justify-content: space-around;
                 text-align: center;
             }
         }
@@ -326,7 +328,7 @@
             .try-now-container-bottom-block {
                 display: flex;
                 align-items: center;
-                justify-content: space-evenly;
+                justify-content: space-around;
                 padding-bottom: 55px;
 
                 input {
@@ -456,7 +458,7 @@
                     .item-block-bottom {
                         display: flex;
                         align-items: center;
-                        justify-content: space-evenly;
+                        justify-content: space-around;
                         width: 155px;
                         margin: 0 auto;
                     }
