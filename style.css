@@ -6,6 +6,10 @@ h2 {
   margin: 0;
 }
 
+h1 {
+  margin: 0;
+}
+
 p {
   margin: 0;
 }
@@ -35,7 +39,7 @@ p {
   align-items: center;
 }
 
-.container header div h2 {
+.container header div h1 {
   font-size: 60px;
   font-family: 'Exo 2', sans-serif;
   text-align: center;
@@ -70,58 +74,58 @@ p {
   color: #767678;
 }
 
-.container .section2 {
+.container .new-design {
   min-height: 725px;
   display: flex;
 }
 
-.container .section2 div {
+.container .new-design div {
   flex: 61%;
 }
 
-.container .section2 div div {
+.container .new-design div div {
   max-width: 570px;
   margin: 0 auto;
   margin-top: 91px;
 }
 
-.container .section2 div div h3 {
+.container .new-design div div h3 {
   color: #ff6d6d;
   font-size: 16px;
 }
 
-.container .section2 div div h2 {
+.container .new-design div div h2 {
   font-size: 40px;
   padding-bottom: 58px;
 }
 
-.container .section2 div div h2 span {
+.container .new-design div div h2 span {
   color: #ff6d6d;
 }
 
-.container .section2 div div p {
+.container .new-design div div p {
   font-size: 16px;
 }
 
-.container .section2 div div {
+.container .new-design div div {
   flex: 39%;
 }
 
-.container .section3 {
+.container .new-features {
   background-size: cover;
   background-position: center;
   width: 100%;
   background-image: url("./assets/pots.png");
 }
 
-.container .section3 .section3-container {
+.container .new-features .new-features-container {
   max-width: 1200px;
   margin: 0 auto;
   min-height: 675px;
   position: relative;
 }
 
-.container .section3 .section3-container .section3-container__title {
+.container .new-features .new-features-container .new-features-container__title {
   color: #ff6d6d;
   text-align: center;
   padding-top: 136px;
@@ -129,39 +133,42 @@ p {
   font-size: 16px;
 }
 
-.container .section3 .section3-container .section3-container__sub-title {
+.container .new-features .new-features-container .new-features-container__sub-title {
   text-align: center;
   font-size: 40px;
   padding-bottom: 96px;
 }
 
-.container .section3 .section3-container .section3-container-content {
+.container .new-features .new-features-container .new-features-container-content {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
 }
 
-.container .section3 .section3-container .section3-container-content .content-item {
+.container .new-features .new-features-container .new-features-container-content .content-item {
   align-items: center;
   display: flex;
   flex-direction: column;
 }
 
-.container .section3 .section3-container .section3-container-content .content-item img {
+.container .new-features .new-features-container .new-features-container-content .content-item img {
   width: 70px;
   height: 70px;
   text-align: center;
+  padding-bottom: 6px;
 }
 
-.container .section3 .section3-container .section3-container-content .content-item h2 {
+.container .new-features .new-features-container .new-features-container-content .content-item h2 {
   font-size: 22px;
+  padding-bottom: 10px;
 }
 
-.container .section3 .section3-container .section3-container-content .content-item h3 {
+.container .new-features .new-features-container .new-features-container-content .content-item h3 {
+  color: #99999a;
   font-size: 16px;
 }
 
-.container .section3 .section3-container .section3-container__img {
+.container .new-features .new-features-container .new-features-container__img {
   position: absolute;
   top: 2px;
   right: 50px;
@@ -419,6 +426,7 @@ p {
   text-align: left;
   font-size: 16px;
   max-width: 225px;
+  color: #8a8a8a;
 }
 
 .container footer .footer-background .footer-container .footer-container-item .item-block-top {

@@ -6,6 +6,10 @@ h2 {
     margin: 0;
 }
 
+h1 {
+    margin: 0;
+}
+
 p {
     margin: 0;
 }
@@ -32,7 +36,7 @@ p {
             flex-direction: column;
             align-items: center;
 
-            h2 {
+            h1 {
                 font-size: 60px;
                 font-family: 'Exo 2', sans-serif;
                 text-align: center;
@@ -69,7 +73,7 @@ p {
         }
     }
 
-    .section2 {
+    .new-design {
         min-height: 725px;
         display: flex;
 
@@ -108,19 +112,19 @@ p {
         }
     }
 
-    .section3 {
+    .new-features {
         background-size: cover;
         background-position: center;
         width: 100%;
         background-image: url("./assets/pots.png");
 
-        .section3-container {
+        .new-features-container {
             max-width: 1200px;
             margin: 0 auto;
             min-height: 675px;
             position: relative;
 
-            .section3-container__title {
+            .new-features-container__title {
                 color: #ff6d6d;
                 text-align: center;
                 padding-top: 136px;
@@ -128,13 +132,13 @@ p {
                 font-size: 16px;
             }
 
-            .section3-container__sub-title {
+            .new-features-container__sub-title {
                 text-align: center;
                 font-size: 40px;
                 padding-bottom: 96px;
             }
 
-            .section3-container-content {
+            .new-features-container-content {
                 display: flex;
                 justify-content: space-evenly;
                 text-align: center;
@@ -148,19 +152,22 @@ p {
                         width: 70px;
                         height: 70px;
                         text-align: center;
+                        padding-bottom: 6px;
                     }
 
                     h2 {
                         font-size: 22px;
+                        padding-bottom: 10px;
                     }
 
                     h3 {
+                        color:#99999a;
                         font-size: 16px;
                     }
                 }
             }
 
-            .section3-container__img {
+            .new-features-container__img {
                 position: absolute;
                 top: 2px;
                 right: 50px;
@@ -424,6 +431,7 @@ p {
                         text-align: left;
                         font-size: 16px;
                         max-width: 225px;
+                        color: #8a8a8a;
                     }
 
                     .item-block-top {
